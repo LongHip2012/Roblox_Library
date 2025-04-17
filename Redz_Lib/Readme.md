@@ -10,8 +10,8 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/LongH
 ## Create A Windows
 ```lua
 local Windows = redzlib:MakeWindow({
-	Title = "Title",
-	SubTitle = "Subtitle",
+	Title = "Windows",
+	SubTitle = "By redz",
 	SaveFolder = "RedzLib.lua"
 })
 ```
@@ -33,13 +33,14 @@ BackgroundTransparency = 0 },
 local Tab1 = Window:MakeTab({"Tab", "info"})
 ```
 <br/>
+
 ## Create A Discord Invite
 ```lua
 Tab1:AddDiscordInvite({
-  Name = "Title",
-  Description = "Subtitle",
+  Name = "Discord Invite",
+  Description = "This Is A Discord Invite",
   Logo = "rbxassetid://", --Your Image Id
-  Invite = "" --Your Link
+  Invite = "make by redz hub" --Your Link
 })
 ```
 <br/>
@@ -59,7 +60,7 @@ Tab1:AddToggle({
 Tab1:AddButton({
 	Name = "Button",
 	Callback = function()
-      print("sry for bad English")
+      print("A Simple Button")
 	end})
 ```
 <br/>
@@ -87,10 +88,21 @@ Tab1:AddDropdown({
 
 ## Create A Paragraph
 ```lua
-local Paragraph = Farm:AddParagraph({
+local Paragraph = Tab1:AddParagraph({
 	Title = "Paragraph",
-	Desc = "Subtitle"
+	Desc = "This Is A Paragraph"
    })
 ```
 <br/>
-
+## Create A Slider
+```lua
+Tab1:AddSlider({
+ 	"Slider",
+	50,
+	350,
+	5,
+	350,
+	function()
+	end})
+```
+<br/>

@@ -95,6 +95,9 @@ local Paragraph = Tab1:AddParagraph({
 ```
 <br/>
 
+## Credits
+
+-Ui by [Redz Hub](https://github.com/newredz)
 ## Create A Slider
 ```lua
 Tab1:AddSlider({

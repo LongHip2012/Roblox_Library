@@ -94,6 +94,7 @@ local Paragraph = Tab1:AddParagraph({
    })
 ```
 <br/>
+
 ## Create A Slider
 ```lua
 Tab1:AddSlider({

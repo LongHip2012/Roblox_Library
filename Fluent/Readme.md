@@ -13,13 +13,13 @@
 You can load Fluent through a GitHub Release:
 
 ```lua
-local Fluent = loadstring(game:HttpGet("https://github.com/LongHip2012/Roblox_Library/blob/main/Fluent/Source.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 ```
 <br/>
 
 ## 📜 Usage
 
-[Example Script](https://github.com/LongHip2012/Roblox_Library/blob/main/Fluent/Example.lua)
+[Example Script](https://github.com/dawid-scripts/Fluent/blob/master/Example.lua)
 <br/>
 
 ## Credits

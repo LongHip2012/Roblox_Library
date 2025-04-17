@@ -106,7 +106,7 @@ Tab1:AddSlider({
 	function()
 	end})
 ```
-<br/)
+(<br/)
 
 ## Credits
 

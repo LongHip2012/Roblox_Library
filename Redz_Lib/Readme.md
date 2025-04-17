@@ -108,6 +108,11 @@ Tab1:AddSlider({
 ```
 (<br/)
 
+## 📜 Usage
+
+[Example Script](https://github.com/LongHip2012/Roblox_Library/blob/main/Redz_Lib/Example.lua)
+<br/>
+
 ## Credits
 
 -Ui by [Redz Hub](https://github.com/newredz)
